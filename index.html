@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document object model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   <div class="container">
+        <div class="main">
+        <span id="text"></span>
+        <span class="line"></span>
+    </div>
+    
+    <p>Enter your data</p>
+    <input id="name" type="text" placeholder="name">
+    <input id="weight" type="number" placeholder="weight (kg)">
+    <input id="height" type="number" placeholder="height (m)">    
+    <button onclick="calculateBmi()" id="btn">Calculate</button>
+    
+    <p id="result"></p>
+    <p id="advice"></p>
+    
+    <img src="BMIchart.jpg" alt="BMI-chart">
+    
+    <a id="restart" href="index.html">Restart Calculatetion</a>
+    
+   </div>
+    <script src="js.js"></script>
+</body>
+</html>
